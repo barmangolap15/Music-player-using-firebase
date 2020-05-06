@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/page1">
+
+        <include layout="@layout/custom_toolbar"/>
+        <ListView
+            android:layout_below="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/myListView"
+            android:choiceMode="singleChoice"
+            android:padding="10dp"
+
+            android:layout_above="@+id/jcplayer" />
+
+        <com.example.jean.jcplayer.view.JcPlayerView
+            android:id="@+id/jcplayer"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:background="@drawable/page2"
+            android:gravity="bottom"
+            app:next_icon_color="@android:color/black"
+            app:pause_icon_color="@android:color/black"
+            app:play_icon_color="@android:color/black"
+            app:previous_icon_color="@android:color/black"
+            app:progress_color="@android:color/black"
+            app:random_icon_color="@android:color/white"
+            app:repeat_icon_color="@android:color/white"
+            app:seek_bar_color="@android:color/white"
+            app:text_audio_current_duration_color="@android:color/black"
+            app:text_audio_duration_color="@android:color/black"
+            app:text_audio_title_color="@android:color/black" />
+
+
+</RelativeLayout>

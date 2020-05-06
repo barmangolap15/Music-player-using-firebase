@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "734276426839",
+    "firebase_url": "https://fir-musicplayer-c2075.firebaseio.com",
+    "project_id": "fir-musicplayer-c2075",
+    "storage_bucket": "fir-musicplayer-c2075.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734276426839:android:f1ec5c3625b4fac21a1712",
+        "android_client_info": {
+          "package_name": "com.example.firebasemusicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734276426839-trrdvrbbl0v2atclnohb31trfbshr66d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasemusicplayer",
+            "certificate_hash": "49429800c8588dfa3972411d666d9169471fa399"
+          }
+        },
+        {
+          "client_id": "734276426839-31b111hf1q97eq3u0vnkahlk51hplofe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_1B2jrpeXKEPpMp0CIva4-r_HSXJeeLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734276426839-31b111hf1q97eq3u0vnkahlk51hplofe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
